@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover lectures, workshops, career fairs, and seminars at CampusHub University.">
+    <title>Campus Events | CampusHub</title>
+</head>
+<body>
+
+    <header>
+        <h1>CampusHub</h1>
+        <p>Your University Portal</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html" aria-current="page">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Events</h2>
+            <p>
+                Discover what's happening at CampusHub. Attend guest
+                lectures, develop practical skills in workshops, connect
+                with employers, and learn from experts across different fields.
+            </p>
+        </section>
+
+        <section aria-labelledby="search-heading">
+            <h2 id="search-heading">Find an Event</h2>
+
+            <form action="events.html" method="get">
+                <p>
+                    <label for="event-search">Search events:</label>
+                    <input
+                        type="search"
+                        id="event-search"
+                        name="search"
+                        placeholder="Enter an event name"
+                    >
+                </p>
+
+                <p>
+                    <label for="event-category">Event Category:</label>
+                    <select id="event-category" name="category">
+                        <option value="">All Categories</option>
+                        <option value="lecture">Guest Lectures</option>
+                        <option value="workshop">Workshops</option>
+                        <option value="career">Career Events</option>
+                        <option value="seminar">Seminars</option>
+                    </select>
+                </p>
+
+                <button type="submit">Search Events</button>
+            </form>
+
+            <p>
+                Note: The search and category controls are HTML examples.
+                Dynamic filtering requires additional implementation.
+            </p>
+        </section>
+
+        <nav aria-label="Event categories">
+            <h2>Browse Event Categories</h2>
+            <ul>
+                <li><a href="#lectures">Guest Lectures</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#career-events">Career Events</a></li>
+                <li><a href="#seminars">Seminars</a></li>
+            </ul>
+        </nav>
+
+        <section aria-labelledby="all-events-heading">
+            <h2 id="all-events-heading">Upcoming Campus Events</h2>
+
+            <article id="lectures">
+                <figure>
+                    <img
+                        src="images/event-ai-lecture.jpg"
+                        alt="University speaker presenting artificial intelligence concepts to students"
+                        width="800"
+                        height="450"
+                    >
+                    <figcaption>Learn about artificial intelligence in education.</figcaption>
+                </figure>
+
+                <h3>Guest Lecture: AI in Education</h3>
+                <p><strong>Category:</strong> Guest Lecture</p>
+                <p>
+                    <strong>Date:</strong>
+                    <time datetime="2026-04-15">15 April 2026</time>
+                </p>
+                <p><strong>Time:</strong> 10:00–11:30</p>
+                <p><strong>Venue:</strong> Main Auditorium</p>
+                <p>
+                    Join an invited speaker for a discussion of how
+                    artificial intelligence is changing teaching, learning,
+                    educational research, and student support.
+                </p>
+                <p><a href="schedule.html">View Details</a></p>
+            </article>
+
+            <article id="workshops">
+                <figure>
+                    <img
+                        src="images/event-web-workshop.jpg"
+                        alt="Students practicing web development at computers in a university lab"
+                        width="800"
+                        height="450"
+                    >
+                    <figcaption>Practice building websites in a hands-on workshop.</figcaption>
+                </figure>
+
+                <h3>Workshop: Web Development</h3>
+                <p><strong>Category:</strong> Workshop</p>
+                <p>
+                    <strong>Date:</strong>
+                    <time datetime="2026-04-22">22 April 2026</time>
+                </p>
+                <p><strong>Time:</strong> 13:00–15:00</p>
+                <p><strong>Venue:</strong> Computer Laboratory 2</p>
+                <p>
+                    Develop your understanding of semantic HTML and website
+                    structure through practical exercises designed for
+                    students who are beginning their web development journey.
+                </p>
+                <p><a href="schedule.html">View Details</a></p>
+            </article>
+
+            <article id="career-events">
+                <figure>
+                    <img
+                        src="images/event-career-fair.jpg"
+                        alt="Students speaking with company representatives at a university career fair"
+                        width="800"
+                        height="450"
+                    >
+                    <figcaption>Meet employers and explore career opportunities.</figcaption>
+                </figure>
+
+                <h3>Career Fair 2025</h3>
+                <p><strong>Category:</strong> Career Event</p>
+                <p>
+                    <strong>Date:</strong>
+                    <time datetime="2025-04-30">30 April 2025</time>
+                </p>
+                <p><strong>Time:</strong> 09:00–16:00</p>
+                <p><strong>Venue:</strong> University Sports and Events Hall</p>
+                <p>
+                    Meet representatives from different industries, learn
+                    about internships, and discover employment opportunities.
+                    Bring your CV and prepare questions for participating employers.
+                </p>
+                <p><a href="schedule.html">View Details</a></p>
+            </article>
+
+            <article id="seminars">
+                <figure>
+                    <img
+                        src="images/event-digital-transformation.jpg"
+                        alt="Presenter discussing digital transformation during a university seminar"
+                        width="800"
+                        height="450"
+                    >
+                    <figcaption>Explore technology-driven organizational change.</figcaption>
+                </figure>
+
+                <h3>Seminar: Digital Transformation</h3>
+                <p><strong>Category:</strong> Seminar</p>
+                <p>
+                    <strong>Date:</strong>
+                    <time datetime="2026-05-12">12 May 2026</time>
+                </p>
+                <p><strong>Time:</strong> 11:00–12:30</p>
+                <p><strong>Venue:</strong> Conference Room A</p>
+                <p>
+                    Examine how digital tools, data, and emerging technologies
+                    influence organizations, professional practices, and
+                    future business strategies.
+                </p>
+                <p><a href="schedule.html">View Details</a></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 CampusHub University Portal.
+            All rights reserved.
+        </p>
+
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+
+        <address>
+            CampusHub University<br>
+            University Avenue<br>
+            Email: <a href="mailto:info@campushub.example">info@campushub.example</a>
+        </address>
+    </footer>
+
+</body>
+</html>
